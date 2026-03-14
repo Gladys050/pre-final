@@ -28,22 +28,40 @@
         </form>
       </header>
       <main>
+        <h1 class="current-city" id="current-city">—</h1>
+        <p class="current-details">
+          <span id="current-date"></span>
+        </p>
+
         <div class="current-weather">
-          <div>
-            <h1 class="current-city" id="current-city">Paris</h1>
-            <p class="current-details">
-              <span id="current-date"></span>,
-              <span id="current-description">moderate rain</span> <br />
-              Humidity: <strong id="current-humidity">87%</strong>, Wind:
-              <strong id="current-wind">7.2km/h</strong>
-            </p>
-          </div>
+          <span class="current-temperature-icon">☀️</span>
           <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span>
             <span class="current-temperature-value" id="current-temperature"
-              >24</span
+              >—</span
             >
             <span class="current-temperature-unit">°C</span>
+          </div>
+        </div>
+
+        <p class="current-details">
+          <span id="current-description">—</span>
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-icon">💨</span>
+            <span class="stat-label">Wind</span>
+            <span class="stat-value" id="current-wind">—</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">💧</span>
+            <span class="stat-label">Humidity</span>
+            <span class="stat-value" id="current-humidity">—</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🌡️</span>
+            <span class="stat-label">Feels Like</span>
+            <span class="stat-value" id="current-feels-like">—</span>
           </div>
         </div>
       </main>
