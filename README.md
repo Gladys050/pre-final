@@ -6,7 +6,7 @@ A simple and clean weather application built using **HTML** and **CSS**, powered
 
 ## 🚀 Live Demo
 
-👉 [https://your-vercel-link.vercel.app/](https://your-vercel-link.vercel.app/)
+👉 https://pre-final-seven.vercel.app/
 
 ---
 
