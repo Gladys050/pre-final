@@ -50,10 +50,13 @@ A simple and clean weather application built using **HTML** and **CSS**, powered
 
 ```
 weather-app/
-|
+│── src/
+│ ├── index.js
+│ └── style.css
 │── index.html
-│── style.css
-│── index.js
+│── package.json
+│── .gitattributes
+│── README.md
 ```
 
 ---
